@@ -10,10 +10,11 @@ namespace TicTacToe
     {
         public const int DEPTH = 8;
         public static Move bestMove;
-
+        public static int recursivityCount = 0;
 
         public static void Random(Board board)
         {
+            recursivityCount++;
             Random rand = new Random();
             List<Move> moves = board.GetAvailableMoves();
             Move randMove = moves[rand.Next(moves.Count - 1)];
@@ -22,6 +23,7 @@ namespace TicTacToe
 
         public static int MiniMax(Board board,bool isMaximising = true, int depth = DEPTH)
         {
+            recursivityCount++;
             if (board.IsGameOver() || depth == 0)
                 return board.Evaluate(Player.Circle);
 
@@ -57,6 +59,7 @@ namespace TicTacToe
 
         public static int NegaMax(Board board, int depth = DEPTH)
         {
+            recursivityCount++;
             if (board.IsGameOver() || depth == 0)
                 return board.Evaluate();
 
@@ -85,6 +88,7 @@ namespace TicTacToe
 
         public static int AlphaBeta(Board board, int depth = DEPTH, int alpha = int.MinValue, int beta = int.MaxValue, bool isMaximizingPlayer = true)
         {
+            recursivityCount++;
             if (board.IsGameOver() || depth == 0)
                 return board.Evaluate(Player.Circle);
 

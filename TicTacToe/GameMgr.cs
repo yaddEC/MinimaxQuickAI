@@ -100,6 +100,8 @@ namespace TicTacToe
             Move crtMove = new Move();
             if (IsPlayerTurn())
             {
+                Console.Write("\nAI function called {0} time(s)\n\n\n", AI.recursivityCount);
+                AI.recursivityCount = 0;
                 crtMove.Column = GetPlayerInput(true);
                 crtMove.Line = GetPlayerInput(false);
                 if (mainBoard.BoardSquares[crtMove.Line, crtMove.Column] == 0)
