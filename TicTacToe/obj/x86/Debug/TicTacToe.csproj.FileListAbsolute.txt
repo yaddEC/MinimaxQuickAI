@@ -1,0 +1,8 @@
+C:\Users\decho\Documents\TicTacToe - base\TicTacToe - base\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\decho\Documents\TicTacToe - base\TicTacToe - base\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\decho\Documents\TicTacToe - base\TicTacToe - base\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\decho\Documents\TicTacToe - base\TicTacToe - base\TicTacToe\obj\x86\Debug\TicTacToe.csproj.AssemblyReference.cache
+C:\Users\decho\Documents\TicTacToe - base\TicTacToe - base\TicTacToe\obj\x86\Debug\TicTacToe.csproj.SuggestedBindingRedirects.cache
+C:\Users\decho\Documents\TicTacToe - base\TicTacToe - base\TicTacToe\obj\x86\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\decho\Documents\TicTacToe - base\TicTacToe - base\TicTacToe\obj\x86\Debug\TicTacToe.exe
+C:\Users\decho\Documents\TicTacToe - base\TicTacToe - base\TicTacToe\obj\x86\Debug\TicTacToe.pdb
